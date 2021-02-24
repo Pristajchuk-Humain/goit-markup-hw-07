@@ -1,0 +1,42 @@
+.details {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.priorities-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priorities-list-item-decription {
+  display: flex;
+  font: weight 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-right: 30px;
+}
+
+.priorities-list-item-title {
+  display: flex;
+  justify-content: space-between;
+  font: weight 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.priorities-list-item-mark {
+  display: flex;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}

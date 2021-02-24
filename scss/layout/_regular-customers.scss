@@ -1,0 +1,42 @@
+.regular-customers-list {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.regular-customers-mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: white;
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    border-color: var(--accent-color);
+  }
+
+  &:focus {
+    outline: none;
+    border-color: var(--accent-color);
+  }
+  &:hover .regular-customers-icon,
+  &:focus .regular-customers-icon {
+    fill: var(--accent-color);
+  }
+}
+
+.regular-customers {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.regular-customers-icon {
+  fill: #afb1b8;
+}

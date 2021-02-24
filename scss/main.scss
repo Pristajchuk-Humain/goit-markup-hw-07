@@ -1,0 +1,28 @@
+/* BASE*/
+@import "./base/commom";
+@import "./base/container";
+
+/*COMPONENTS*/
+@import "./components/modal-btn";
+@import "./components/logo";
+@import "./components/main-title";
+@import "./components/title-second";
+@import "./components/regular-customers-title";
+@import "./components/come-over-title";
+@import "./components/footer-form-btn";
+@import "./components/footer-form-title";
+
+/*LAYOUT*/
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/details";
+@import "./layout/what-are-we-doing-pictures";
+@import "./layout/our-team";
+@import "./layout/regular-customers";
+@import "./layout/contacts";
+@import "./layout/come-over";
+@import "./layout/footer-form";
+@import "./layout/backdrop";
+
+/* UTILS*/
+@import "./utils/visually-hidden";

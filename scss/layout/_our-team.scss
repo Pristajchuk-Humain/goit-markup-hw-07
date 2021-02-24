@@ -1,0 +1,87 @@
+.our-team {
+  display: flex;
+  background-color: #f5f4fa;
+  width: 100%;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.web-our-team {
+  font: weight 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.list-pictures-workers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-pictures-workers-item {
+  margin-right: 30px;
+  padding-bottom: 30px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.professions {
+  font-size: 16px;
+  line-height: 1.186;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.workers-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.186;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.social-links-list-mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+
+  &:hover .social-links-icon,
+  &:focus .social-links-icon {
+    fill: white;
+  }
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 206px;
+  margin: 0 auto;
+}
+
+.social-links-icon {
+  fill: #afb1b8;
+}

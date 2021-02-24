@@ -1,0 +1,51 @@
+.contacts {
+  display: flex;
+  background: #2f303a;
+  width: 100%;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.navigation-list-footer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
+.navigation-list-item {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-bottom: 20px;
+
+  &:not(:first-child) {
+    margin-bottom: 9px;
+  }
+}
+.contact-adress {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.contact-email-footer {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.174;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-tel-footer {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}

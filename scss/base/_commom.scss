@@ -1,0 +1,29 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --accent-color-logo: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+}
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}

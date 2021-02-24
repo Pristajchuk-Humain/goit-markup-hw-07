@@ -1,0 +1,45 @@
+.logo {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font: weight 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+
+  .top-heder & {
+    display: flex;
+    align-items: center;
+    margin-right: 93px;
+  }
+
+  & .logo-blue {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+  }
+
+  & .logo-black {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+
+  & .logo-white {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--accent-color-logo);
+  }
+}

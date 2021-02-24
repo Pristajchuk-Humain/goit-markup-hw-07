@@ -1,0 +1,27 @@
+.modal-btn {
+  min-width: 200px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-left: 22px;
+  padding-bottom: 10px;
+  padding-right: 22px;
+  margin-top: 30px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
+  color: white;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color-logo);
+    background-color: var(--accent-color);
+  }
+}
